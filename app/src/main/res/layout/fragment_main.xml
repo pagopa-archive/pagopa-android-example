@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/comune_milano"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:id="@+id/ll_generate_payment_button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="@dimen/fragment_lateral_margins"
+        android:layout_marginEnd="@dimen/fragment_lateral_margins"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/dw_round_button_accent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genera Pagamento"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>
