@@ -2,9 +2,9 @@
 
 Distribuiamo in formato binario solamente i componenti che interagiscono più strettamente con la carta, per rispettare la [certificazione PCI](https://www.sia.eu/it/gruppo-sia/compliance) (Payment Card Industry).
 
-I componenti binari di questo applicativo sono distribuiti nello stato di fatto e senza garanzia. È possibile utilizzare questi componenti per costruire qualsivoglia applicazione sotto qualsivoglia licenza, a patto di non decompilare, disassemblare, o diversamente tentare di scoprire il codice sorgente dei componenti binari.
+I componenti binari di questo applicativo sono distribuiti nello stato di fatto. AgID garantisce la funzionalità e l’eventuale manutenzione correttiva (e.g. bug-fixing) per i soli componenti binari. È possibile utilizzare questi componenti per costruire qualsivoglia applicazione sotto qualsivoglia licenza, a patto di non decompilare, disassemblare, o diversamente tentare di scoprire il codice sorgente dei componenti binari.
 
-Questa vuole essere solo una sintesi per agevolare la comprensione. L'unico testo vincolante a norma di legge è il testo completo della licenza in italiano, riportato qui sotto.
+Questa premessa vuole essere solo una sintesi per agevolare la comprensione. L'unico testo vincolante a norma di legge è il testo completo della licenza in italiano, riportato qui sotto.
 
 # Testo completo della licenza
 
@@ -31,7 +31,8 @@ La licenza concessa con il presente atto non è esclusiva. Il Licenziatario non 
 
 ## Garanzia
 
-Il Programma è fornito al Licenziatario nello stato di fatto. Ad eccezione dei componenti binari per i quali AgID ne garantisce la funzionalità e l’eventuale manutenzione correttiva (e.g. bug e fixing) , AgID e i danti causa di AgID, incluso il fornitore della stessa, non forniscono garanzia riguardo l'uso o le prestazioni del Programma e non forniscono alcuna garanzia, condizione, dichiarazione o termine (espressi o impliciti sia per statuto, diritto consuetudinario, costume, utilizzo o diversamente) a nessun titolo, inclusa ma non solo la non violazione di diritti di terzi, commerciabilità, integrazione, qualità soddisfacente o idoneità per qualsiasi scopo particolare salvo, e nella misura in cui, tale garanzia non possa essere esclusa o limitata dalla legge applicabile nella giurisdizione del Licenziatario. Qualunque violazione delle condizioni previste nel presente atto di licenza e/e azioni illegali comporteranno la decadenza dalla licenza, e dunque il divieto all'uso del Programma, senza alcuna e qualsiasi azione di rivalsa contro AgID e i danti causa di AgID, incluso i fornitori della stessa.
+Il Programma è fornito al Licenziatario nello stato di fatto. Ad eccezione dei componenti binari per i quali AgID ne garantisce la funzionalità e l’eventuale manutenzione correttiva (e.g. bug-fixing), AgID e i danti causa di AgID, incluso il fornitore della stessa, non forniscono garanzia riguardo l'uso o le prestazioni del Programma e non forniscono alcuna garanzia, condizione, dichiarazione o termine (espressi o impliciti sia per statuto, diritto consuetudinario, costume, utilizzo o diversamente) a nessun titolo, inclusa ma non solo la non violazione di diritti di terzi, commerciabilità, integrazione, qualità soddisfacente o idoneità per qualsiasi scopo particolare salvo, e nella misura in cui, tale garanzia non possa essere esclusa o limitata dalla legge applicabile nella giurisdizione del Licenziatario. Qualunque violazione delle condizioni previste nel presente atto di licenza e/e azioni illegali comporteranno la decadenza dalla licenza, e dunque il divieto all'uso del Programma, senza alcuna e qualsiasi azione di rivalsa contro AgID e i danti causa di AgID, incluso i fornitori della stessa.
+
 
 ## Limitazione di responsabilità
 
