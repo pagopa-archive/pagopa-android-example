@@ -33,10 +33,9 @@ La licenza concessa con il presente atto non è esclusiva. Il Licenziatario non 
 
 Il Programma è fornito al Licenziatario nello stato di fatto. Ad eccezione dei componenti binari per i quali AgID ne garantisce la funzionalità e l’eventuale manutenzione correttiva (e.g. bug e fixing) , AgID e i danti causa di AgID, incluso il fornitore della stessa, non forniscono garanzia riguardo l'uso o le prestazioni del Programma e non forniscono alcuna garanzia, condizione, dichiarazione o termine (espressi o impliciti sia per statuto, diritto consuetudinario, costume, utilizzo o diversamente) a nessun titolo, inclusa ma non solo la non violazione di diritti di terzi, commerciabilità, integrazione, qualità soddisfacente o idoneità per qualsiasi scopo particolare salvo, e nella misura in cui, tale garanzia non possa essere esclusa o limitata dalla legge applicabile nella giurisdizione del Licenziatario. Qualunque violazione delle condizioni previste nel presente atto di licenza e/e azioni illegali comporteranno la decadenza dalla licenza, e dunque il divieto all'uso del Programma, senza alcuna e qualsiasi azione di rivalsa contro AgID e i danti causa di AgID, incluso i fornitori della stessa.
 
-
 ## Limitazione di responsabilità
 
-In nessun caso AgID e i danti causa di AgID, incluso i fornitori della stessa, saranno responsabili di qualsivoglia danno, rivendicazione o costo di qualsiasi tipo, o per qualsivoglia danno consequenziale, indiretto, incidentale o per qualsiasi perdita di profitto o perdita di risparmi, , né saranno responsabili di alcuna rivendicazione da parte di qualsiasi terzo. Tali limitazioni ed esclusioni si applicano nella misura permessa dalla legge applicabile nella giurisdizione del Licenziatario.
+In nessun caso AgID e i danti causa di AgID, incluso i fornitori della stessa, saranno responsabili di qualsivoglia danno, rivendicazione o costo di qualsiasi tipo, o per qualsivoglia danno consequenziale, indiretto, incidentale o per qualsiasi perdita di profitto o perdita di risparmi, né saranno responsabili di alcuna rivendicazione da parte di qualsiasi terzo. Tali limitazioni ed esclusioni si applicano nella misura permessa dalla legge applicabile nella giurisdizione del Licenziatario.
 
 ## Legge applicabile e foro competente
 Le norme applicabili al presente atto sono quelle previste nell'ordinamento italiano.
