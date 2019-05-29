@@ -1,2 +1,2 @@
 configurations.maybeCreate("default")
-artifacts.add("default", file('WalletCoreSDK.aar'))
+artifacts.add("default", file('WalletCore-SDK-all.aar'))
