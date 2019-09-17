@@ -15,6 +15,7 @@ In order to use the binary version of the SDK, it is required to add the followi
 - `implementation 'com.android.support:support-v4:28.0.0'`
 - `implementation 'com.google.firebase:firebase-messaging:11.8.0'`
 - `implementation 'com.android.support:recyclerview-v7:28.0.0'`
+- `implementation 'com.squareup.picasso:picasso:2.5.2'`
 
 ## Using the SDK
 
