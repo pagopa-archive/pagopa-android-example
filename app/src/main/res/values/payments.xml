@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="payments_array">
+
+        <item>08afbde1-7f19-4e84-9198-f2564323fc64</item>
+    </string-array>
+
+
+</resources>

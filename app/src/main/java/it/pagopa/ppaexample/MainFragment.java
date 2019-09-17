@@ -6,22 +6,33 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
+import android.widget.Spinner;
+
+import java.util.ArrayList;
 
 public class MainFragment extends Fragment {
+    ArrayAdapter<String> dataAdapter;
 
     private OnFragmentInteractionListener mListener;
-
+    private Spinner paymentsDropDown;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_main, container, false);
+
+
+
+        paymentsDropDown = root.findViewById(R.id.spinner);
+
+
         LinearLayout llGeneratePaymentButton = root.findViewById(R.id.ll_generate_payment_button);
         llGeneratePaymentButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (mListener != null) {
-                    mListener.onFragmentInteraction();
+                    mListener.onFragmentInteraction(paymentsDropDown.getSelectedItem().toString());
                 }
             }
         });
@@ -47,6 +58,6 @@ public class MainFragment extends Fragment {
     }
 
     public interface OnFragmentInteractionListener {
-        void onFragmentInteraction();
+        void onFragmentInteraction(String idPayment);
     }
 }

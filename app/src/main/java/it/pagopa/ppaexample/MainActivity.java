@@ -7,21 +7,28 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.ArrayAdapter;
 import android.widget.FrameLayout;
+import android.widget.Spinner;
 
 import com.wallet.core.PpaPaymentVm;
 import com.wallet.modules.ppa.PpaSessionCallback;
 
+import java.util.ArrayList;
 import java.util.UUID;
 
 import it.pagopa.PagoPaCore;
 
 public class MainActivity extends AppCompatActivity implements MainFragment.OnFragmentInteractionListener {
-
+ArrayAdapter<String> dataAdapter;
+    private static  String serverUrl = "https://acardste.vaservices.eu";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
 
         MainFragment fragment = new MainFragment();
         FrameLayout flFrameContainer = findViewById(R.id.fl_fragment_container);
@@ -31,12 +38,13 @@ public class MainActivity extends AppCompatActivity implements MainFragment.OnFr
         ft.replace(flFrameContainer.getId(), fragment, "main");
         ft.commit();
 
-        PagoPaCore.init();
+        PagoPaCore.init(this,serverUrl);
     }
 
     @Override
-    public void onFragmentInteraction() {
-        PagoPaCore.getInstance().startPayment(this, UUID.randomUUID().toString(),
+    public void onFragmentInteraction(String idPayment) {
+
+        PagoPaCore.getInstance().startPayment(this, idPayment,
                 new PpaSessionCallback() {
                     @Override
                     public void onPaymentCompleted(PpaPaymentVm payment) {
