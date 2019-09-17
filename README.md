@@ -6,6 +6,15 @@ The application is completely self-contained. You should just be able to import 
 [![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
 [![PagoPA on forum.italia.it](https://img.shields.io/badge/Forum-PagoPA-blue.svg)](https://forum.italia.it/c/pagopa)
 
+## Build dependences
+
+In order to use the binary version of the SDK, it is required to add the following dependences into the gradle script:
+
+- `implementation 'com.android.support:appcompat-v7:28.0.0'`
+- `implementation 'com.android.support.constraint:constraint-layout:1.0.2'`
+- `implementation 'com.android.support:support-v4:28.0.0'`
+- `implementation 'com.google.firebase:firebase-messaging:11.8.0'`
+- `implementation 'com.android.support:recyclerview-v7:28.0.0'`
 
 ## Using the SDK
 
