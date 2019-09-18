@@ -10,7 +10,9 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 
-import java.util.ArrayList;
+
+
+
 
 public class MainFragment extends Fragment {
     ArrayAdapter<String> dataAdapter;

@@ -15,6 +15,7 @@ In order to use the binary version of the SDK, it is required to add the followi
 - `implementation 'com.android.support:support-v4:28.0.0'`
 - `implementation 'com.google.firebase:firebase-messaging:11.8.0'`
 - `implementation 'com.android.support:recyclerview-v7:28.0.0'`
+- `implementation 'com.squareup.picasso:picasso:2.5.2'`
 
 ## Using the SDK
 
@@ -25,8 +26,14 @@ The SDK is used through a singleton.
 To initialize the Singleton instance of the SDK, invoke the following method when the program starts:
 
 ```.java
-PagoPaCore.init();
+
+PagoPaCore.init(Context context, String baseUrl));
 ```
+
+- `context` represents the context
+- `baseUrl` represents the pagoPA enviroment baseUrl, use "https://acardste.vaservices.eu" to use the UAT environment
+
+
 
 To initiate a payment, you must use the following method:
 
@@ -39,8 +46,9 @@ PagoPaCore.getInstance().startPayment(@NonNull Activity activityHost, @NonNull S
 - `callback` is an interface that lets you know if the request was successful. In case of success, it returns the `PpaPaymentVm` object, containing the payment information.
 
 ```.java
-// A random payment ID, just to serve as an example.
-//It needs to be replaced by the real one
+
+// IdPayments samples are stored in resources @array/payments_array defined in /res/values/payments.xml
+// It needs to be replaced by a new list
 String idPayment = UUID.randomUUID().toString();
 
 PagoPaCore.getInstance().startPayment(this, idPayment, new
